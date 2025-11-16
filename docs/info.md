@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It's an Asynchronous FIFO build on logic from <https://zipcpu.com/blog/2018/07/06/afifo.html>
 
 ## How to test
 
-Explain how to use your project
+Run the Verilator tests attached, or essentially provide 2 signals coming into the FIFO.
 
 ## External hardware
 
