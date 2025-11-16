@@ -18,9 +18,6 @@ module tt_um_afifo (
 
   // All output pins must be assigned. If not used, assign to 0.
   
-  
-  
-  assign rst = ~rst_n;
   assign uio_oe = 8'b0000_0011; // set bidirectional as inputs/outputs
   assign uio_out[5:0] = 6'b0000_00; // set unused bidirectional outputs to LOW
 
